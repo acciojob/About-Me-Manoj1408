@@ -1,1 +1,30 @@
+.con {
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+      }
+      .part1,
+      .part2 {
+        width: 50vw;
+        padding: 5px;
+      }
+      .part1 .p1 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: red; */
+      }
 
+      img {
+        height: 240px;
+        padding-right: 30px;
+      }
+
+      .p21 div {
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: space-between;
+      }
+      .p21 input {
+        width: 100%;
+      }
